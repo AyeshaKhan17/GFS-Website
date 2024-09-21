@@ -1,0 +1,90 @@
+.topmost-div {
+    display: flex;
+    color: white;
+    background-color: black;
+    width: 100%;
+    margin: 0;
+}
+
+
+.topmost-div p {
+    flex: 1;
+    margin-left: 40px;
+}
+
+.number {
+    padding-left: 600px;
+}
+
+.logo {
+    max-height: 60px;
+    max-width: 60px;
+    padding-left: 50px;
+    flex: 1;
+}
+
+header {
+    display: flex;
+    padding-top: 10px;
+
+}
+
+header ul {
+    display: flex;
+    flex: 1;
+    padding-left: 470px;
+    list-style: none;
+}
+
+header ul li {
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-button1 {
+    border-top: 1px solid #e49621;
+    background: #e49621;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: Georgia, serif;
+    vertical-align: middle;
+    color: white;
+}
+
+.button:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+}
+
+.keeping-digital {
+    text-align: left;
+    padding-left: 40px;
+    background-color: orange;
+    background-image: linear-gradient(to right, #c4450e, #f98e3c);
+    padding-bottom: 40px;
+}
+
+.keeping-digital h1 {
+    width: 300px;
+    padding-top: 40px;
+}
+
+.keeping-digital p {
+    width: 350px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
